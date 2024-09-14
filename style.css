@@ -722,11 +722,13 @@ span{
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   html {
-    width: 100vw;
+    width: 90vw;
     margin-left: 1rem;
     align-items: center;
+    overflow-x: hidden;
+    margin-right: 2rem;
   }
 
   .home {
@@ -735,20 +737,23 @@ span{
     margin-left: 3rem;
   }
   .home-content  {
-    width: 100vw;
+    width: 55vw;
+    max-width: 85%;
+    justify-content: center;
     margin-top: -5rem;
+    margin-right: 30rem;
   }
   .home-content h3 {
     font-size: 2.6rem;
   }
   
   .home-content h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     margin-top: 3rem;
     text-align: center;
   }
   .home-content p {
-    width: 400px;
+    width: 55vh;
     text-align: justify;
     margin: 0 auto;
     margin-left: 2rem;
@@ -763,5 +768,13 @@ span{
     margin-left: -2rem;
     color: wheat;
   }
-
+  section{
+    width: 55vh;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .service-info{
+    margin-top: -3rem;
+  }
+ 
 }
