@@ -734,6 +734,17 @@ span{
   #menu-icon {
     display: block;
   }
+  .header .logo{
+    font-size: 4rem;
+    margin-left: -3rem;
+  }
+
+  .header #menu-icon{
+    font-size: 6rem;
+    margin-right: -3rem;
+    align-items: center;
+    margin-top: 2px;
+  }
 
   .navbar {
     position: absolute;
@@ -789,12 +800,19 @@ span{
   .services h2 {
     margin-bottom: 3rem;
   }
-  
+  .services h4 {
+    margin-bottom: 3rem;
+    font-size: 5rem;
+  }
+  .services p {
+    font-size: 2.5rem;
+    text-align: justify;
+  }
   .services-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .input-group-2{
-    margin-right: 3rem;
+    margin-right: 3.5rem;
   }
 }
 
